@@ -2,7 +2,7 @@
 
 library(psych)
 
-junco_dataset <- read_csv(junco_dataset_-_songs_manuscript_.csv)
+junco_dataset <- read_csv("junco_dataset_songs_manuscript.csv")
 
 df <- junco_dataset
 
