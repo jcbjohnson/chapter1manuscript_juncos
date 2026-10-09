@@ -69,7 +69,7 @@ m0.predictions <- predict(nestedm0.tmb, type = "link")
 plot(m0.predictions, m0.residuals)
 
 
-df2 <- read_csv("Downloads/junco_dataset - fid_analysis.csv")
+df2 <- read_csv("junco_dataset_fid_manuscript.csv")
 
 
 df2$daily.cosine <- cos(2*pi*df2$hour)
@@ -103,7 +103,7 @@ fid.tmb <- glmmTMB(
 summary(fid.tmb)
 
 
-df3 <- read_csv("Downloads/junco_dataset - condition_updated (2).csv")
+df3 <- read_csv("junco_dataset_condition_manuscript.csv")
 
 df3$daily.cosine <- cos(2*pi*df3$hour)
 df3$daily.sine <- sin(2*pi*df3$hour) #paired harmonics for daily periodic song trends
