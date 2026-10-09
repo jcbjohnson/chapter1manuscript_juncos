@@ -4,7 +4,7 @@
 install.packages("lmodel2")
 library(lmodel2)
 
-df <- read_csv("Downloads/junco_morphology_dataset - mass_metrics (1).csv")
+df <- read_csv("junco_mass_metrics_manuscript.csv")
 
 #standard major axis (SMA) regression
 sma_model <- lmodel2(log(mass) ~ log(tarsus), data = df, nperm = 99)
