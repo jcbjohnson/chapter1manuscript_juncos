@@ -2,9 +2,9 @@
 
 library(psych)
 
-junco_dataset_corrected_2025 <- read_csv("Downloads/junco_dataset - corrected_2025.csv")
+junco_dataset <- read_csv(junco_dataset_-_songs_manuscript_.csv)
 
-df <- junco_dataset_corrected_2025
+df <- junco_dataset
 
 df$burn.factor <- factor(df$burn, levels = c(0,1), labels = c('unburned', 'burned'))
 
