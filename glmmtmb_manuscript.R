@@ -4,9 +4,9 @@ library(readr)
 library(tidyverse)
 library(car)
 
-junco_dataset_corrected_2025 <- read_csv("Downloads/junco_dataset - corrected_2025.csv")
+junco_dataset <- read_csv("junco_dataset_songs_manuscript.csv")
 
-df <- junco_dataset_corrected_2025
+df <- junco_dataset
 
 
 
