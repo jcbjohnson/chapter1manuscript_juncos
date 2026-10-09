@@ -31,7 +31,7 @@ icc_counts(
 
 #switching to rptr for "FID", which fits a normal distribution.
 
-df2 <- read_csv("Downloads/fid_repeatability - fid_analysis.csv")
+df2 <- read_csv("junco_dataset_fid_manuscript.csv")
 
 
 df2$daily.cosine <- cos(2*pi*df2$hour)
