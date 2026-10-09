@@ -4,8 +4,8 @@
 library(ggplot2)
 library(car)
 
-df <- read_csv("Downloads/zonaldata.xlsx - sites_data_burn (1).csv")
-df2 <- read_csv("Downloads/zonaldata.xlsx - sites_data_temp.csv")
+df <- read_csv("zonaldata_analysis__station_ndvi_manuscript.csv")
+df2 <- read_csv("zonaldata_analysis__station_lst_manuscript.csv")
 
 
 df$burn <- as.factor(df$burn)
