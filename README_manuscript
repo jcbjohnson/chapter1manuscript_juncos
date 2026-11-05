@@ -1,0 +1,39 @@
+#Guide for comparing NDVI, temperature, aggression, condition and density between burned and unburned habitats
+
+REPEATABILITY AND SCALED MASS INDEX:
+
+To measure behavioral repeatability and calculate the scaled mass index for juncos, you will need the following:
+1. RStudio downloaded and installed.
+2. The following datasets downloaded: junco_dataset_songs_manuscript.csv, junco_dataset_fid_manuscript.csv, junco_mass_metrics_manuscript.csv
+3. The following r code downloaded and open: repeatability_scaledmass_manuscript.R
+
+Open the R file in RStudio and load the csvs. Then, run the code as written.
+
+AGGRESSION, RISK-TAKING, AND CONDITION ANALYSES:
+
+To replicate our behavioral analyses of junco aggression and risk-taking, as well as condition analyses you will need the following:
+
+1. RStudio downloaded and installed. 
+2. The following datasets downloaded: junco_dataset_songs_manuscript.csv, junco_dataset_fid_manuscript.csv, junco_dataset_condition_manuscript.csv
+3. The following r code downloaded and open: behavior_condition_manuscript.R
+
+Open the R file in RStudio and load the csvs. Then, run the code as written.
+
+NDVI AND TEMPERATURE METRICS: 
+
+To examine NDVI and Temperature data, you will need the following: 
+1. RStudio downloaded and installed.
+2. The following datasets downloaded: zonaldata_analysis__station_lst_manuscript.csv, zonaldata_analysis__station_ndvi_manuscript.csv
+3. The following r code downloaded and open: ndvi_lst_manuscript.R
+
+Open the R file in RStudio and load the csvs. Then, run the code as written.
+
+DENSITY METRICS:
+
+To calculate junco densities between burned and unburned sites, you will need the following:
+
+1. RStudio downloaded and installed.
+2. The following dataset downloaded: point_counts_manuscript.csv
+3. The following r code downloaded and open: juncodensity_manuscript.R
+
+Open the R file in RStudio and load the csvs. Then, run the code as written.
