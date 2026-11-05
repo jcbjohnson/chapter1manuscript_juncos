@@ -6,7 +6,7 @@
 library(dplyr)
 library(unmarked)
 
-data <- read.csv("Point_Counts_Scoring_point_counts_manuscript.csv")
+data <- read.csv("point_counts_manuscript.csv")
 
 #first, setting up the data to create our umf
 #we want to create detection bins, noting that each station has 3 visits
